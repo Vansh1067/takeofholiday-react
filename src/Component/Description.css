@@ -1,0 +1,20 @@
+.description{
+    display: flex;
+    margin-top:40px ;
+}
+.description__header > p{
+  margin: 30px;
+}
+
+.description__image{
+    height: 500px;
+    width: 650px;
+    margin-right: 100px;
+   
+    
+}
+.description__Image{
+    border: 1px solid white;
+    box-shadow: 2px 5px 10px rgba(0,0,0,0.5);
+    border-radius: 20px;
+}
