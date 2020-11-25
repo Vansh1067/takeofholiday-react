@@ -1,12 +1,14 @@
-import { Button } from '@material-ui/core';
-import React from 'react';
-import "./Description.css"
-
-function Description() {
+import { Button } from '@material-ui/core'
+import React from 'react'
+import "./TravelDes.css"
+function TravelDes() {
     return (
-        <div className="description">
-        <div className="description__header">
-            <h1>Why us?</h1>
+        <div className="travelDes">
+            <div className="travelDes__image">
+             <img className="travelDes__Image" src="https://source.unsplash.com/400x500/?Mumbai" alt=""/>
+             </div>
+            <div className="travelDes__header">
+            <h1>Having trouble <br/> choosing a city ?</h1>
             <p>
             Travel is the movement of people between distant geographical locations. 
             Travel can be done by foot, bicycle, automobile, train, boat, bus, airplane, 
@@ -28,13 +30,10 @@ function Description() {
             Travel can be done by foot, bicycle, automobile, train, boat, bus, airplane, 
             ship or other means, with or without luggage, and can be one way or round trip.
             </p>   
-            <Button variant="contained" color="primary">Deatils</Button>         
-         </div>
-         <div className="description__image">
-             <img className="description__Image" src="https://source.unsplash.com/400x500/?Delhi" alt=""/>
+            <Button variant="contained" color="primary">Wiew all destinations</Button>         
          </div>
         </div>
     )
 }
 
-export default Description
+export default TravelDes

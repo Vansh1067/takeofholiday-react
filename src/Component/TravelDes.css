@@ -1,28 +1,30 @@
-.description{
+.travelDes{
     display: flex;
     margin-top:100px ;
+    margin-bottom: 100px;
 }
-.description__header{
-    margin-left:40px;
+.travelDes__header{
+    margin-left: 5px;
 }
-.description__header > h1 {
+.travelDes__header > h1 {
     margin-left: 30px;
 }
-.description__header > p{
+.travelDes__header > p{
+  margin-right: 40px;
   margin: 30px;
 }
-.description__header > Button{
+.travelDes__header > Button{
     margin-left:30px;
 }
 
-.description__image{
+.travelDes__image{
     height: 500px;
     width: 650px;
-    margin-right: 70px;
+    margin-left: 70px;
    
     
 }
-.description__Image{
+.travelDes__Image{
     border: 1px solid white;
     box-shadow: 2px 5px 10px rgba(0,0,0,0.5);
     border-radius: 20px;

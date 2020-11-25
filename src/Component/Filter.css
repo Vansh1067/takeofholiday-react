@@ -6,7 +6,7 @@
     max-width: 100% ;
     margin: 100px;
     width: auto;
-    height: 50px;
+    height: 80px;
     align-items: center;
     background-color: white;
     border: 1px solid rgb(224, 214, 214);
@@ -17,10 +17,9 @@
     
 }
 
-/* .filter__select > select {
-    width: 100px;
-    
-    
-} */
+.filter__selectForm {
+    width:100px;
+}
+
 
 

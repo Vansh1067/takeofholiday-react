@@ -1,8 +1,10 @@
 import React from "react";
 import "./Body.css";
+import BodyGallery from "./Component/BodyGallery";
 import Description from "./Component/Description";
 import Filter from "./Component/Filter";
 import Services from "./Component/Services";
+import TravelDes from "./Component/TravelDes";
 function Body() {
   return (
     <div className="body">
@@ -14,29 +16,12 @@ function Body() {
 
       {/* Why us ? */}
       <Description />
-
+      <TravelDes />
+      <BodyGallery />
       {/* travel to choose city */}
 
       {/* gallary */}
-      <h1 float="left">Gallery</h1>
-    <div className="body__gallary">
       
-        <div class="body__gallaryFirst">
-          <img src="https://source.unsplash.com/430x230/?Mumbai" alt="" />
-          <h2>Mumbai</h2>
-        </div>
-      
-
-      <div class="body__gallarySecound">
-        <img src="https://source.unsplash.com/430x230/?Chennai" alt="" />
-        <h2>Chennai</h2>
-      </div>
-
-      <div class="body__gallaryThree">
-        <img src="https://source.unsplash.com/430x230/?Kolkata" alt="" />
-        <h2>Kolkata</h2>
-      </div>
-      </div>
     </div>
   );
 }

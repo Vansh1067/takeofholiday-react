@@ -8,7 +8,7 @@ import Tours from './Tours';
 import Destination from './Destination';
 import About from './About';
 import Gallery from './Gallery';
-// import Footer from './Footer';
+import Footer from './Footer';
 
 function App() {
   return (
@@ -18,7 +18,7 @@ function App() {
         <Route path="/">
            <Header/>
            <Body />
-           {/* <Footer/> */}
+           <Footer/>
         </Route>
         <Route path="/tours">
            <Header/>

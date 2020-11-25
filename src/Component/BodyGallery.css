@@ -1,0 +1,29 @@
+.bodyGallery__header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;  
+}
+
+.bodyGallery__headerRight{
+    display: flex;
+    cursor: pointer;
+   
+}
+.bodyGallery__headerRight > h4 {
+    color:rgba(18, 14, 241, 0.698);
+    margin-right: 5px;
+    
+}
+
+.bodyGallery__body {
+  display:flex ;
+  justify-content: space-around;
+  margin-top: 30px
+}
+
+.bodyGallery__bodyImage{
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 2px 5px 10px rgba(0,0,0,0.5);
+}

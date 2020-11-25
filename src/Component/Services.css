@@ -1,14 +1,26 @@
 .services__header{
  display: flex;
  flex-direction: row;
- align-items: center;
  justify-content: space-around;
+ align-items: center;
+ 
+}
+.services__headerRight {
+    display: flex;
+    cursor: pointer;
+    /* align-items: center; */
+
+    
+}
+.services__headerRight > h4{
+    margin-right: 5px; 
+
 }
 
-.Services__body{
+.services__body{
     display: flex;
     /* background-color: red; */
-    margin:20px;
+    margin-top:30px;
     justify-content: space-around;
     align-items: center;
 }
