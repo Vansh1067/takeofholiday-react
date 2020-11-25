@@ -15,6 +15,11 @@
     margin-right: 5px;
     
 }
+/* .bodyGallery__bodyImage > h4 {
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    font-size: 20px;
+} */
 
 .bodyGallery__body {
   display:flex ;

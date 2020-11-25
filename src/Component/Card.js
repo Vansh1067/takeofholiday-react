@@ -1,10 +1,20 @@
 import React from 'react'
+import "./Card.css"
+import CardDetails from './CardDetails'
 
 function Card() {
     return (
         <div className="card">
-            <h1>i am card section</h1>
-            
+           <div className="card__header">
+              <h1>New Tours</h1>
+              <div className="card__deatils">
+                  <CardDetails />
+                  <CardDetails />
+                  <CardDetails />
+                  <CardDetails />
+              </div>
+          
+           </div>  
         </div>
     )
 }
