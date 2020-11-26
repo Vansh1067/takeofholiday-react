@@ -5,6 +5,9 @@
 }
 .card__deatils{
     display: flex;
+    width:auto;
+    height:auto;
+    flex-direction: row ;
     justify-content: space-between;
     margin: 30px;
 }

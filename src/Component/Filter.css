@@ -4,7 +4,7 @@
     flex-direction: row; 
     justify-content: space-around;
     max-width: 100% ;
-    margin: 100px;
+    margin: 50px;
     width: auto;
     height: 80px;
     align-items: center;
@@ -18,7 +18,11 @@
 }
 
 .filter__selectForm {
-    width:100px;
+    width:auto;
+    margin: 100px;
+    /* background-color: white; */
+    max-width: 100% ;
+
 }
 
 

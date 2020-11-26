@@ -1,12 +1,14 @@
 .cardDetails{
     /* background-color: blue; */
     margin-bottom: 50px;
+    width: auto;
 }
 
 .cardDetails__image{
       display: flex;
       justify-content: space-around;
       flex-direction: row;
+      width: auto;
       /* background-color: red; */
       height: 360px;
       /* margin: auto; */

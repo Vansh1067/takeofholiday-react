@@ -3,6 +3,7 @@
     display: flex;
     margin-top: 100px;
     height: 300px;
+    width:auto;
 }
 
 .footer__main{

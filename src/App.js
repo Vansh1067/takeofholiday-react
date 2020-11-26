@@ -15,36 +15,33 @@ function App() {
     <Router>
     <div className="app">
       <Switch>
-        <Route path="/">
-           <Header/>
-           <Body />
-           <Footer/>
-        </Route>
         <Route path="/tours">
-           <Header/>
+           <Header />
            <Tours />
+           <Footer />
         </Route>
-        <Route path="/destination">
-           <Header/>
+        <Route path="/destinations">
+           <Header />
            <Destination />
-
-        </Route>
+           <Footer />
+         </Route>
         <Route path="/about-us">
-           <Header/>
+           <Header />
            <About />
-        </Route>
+           <Footer />
+         </Route>
         <Route path="/gallery">
-           <Header/>
+           <Header />
            <Gallery />
+           <Footer />
+        </Route>
+        <Route path="/">
+           <Header />
+           <Body />
+           <Footer />
         </Route>
       </Switch>
-      
-
-      {/* image */}
-      
-      {/* footer */}
-      {/* <Footer /> */}
-    </div>
+     </div>
     </Router>
   );
 }
