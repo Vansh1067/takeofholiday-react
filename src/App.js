@@ -1,47 +1,59 @@
-import React from 'react';
+import React from "react"
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import './App.css';
-import Body from './Body';
-// import Footer from './Footer';
-import {BrowserRouter as Router,Switch,Route} from "react-router-dom";
-import Header from './Header';
-import Tours from './Tours';
-import Destination from './Destination';
-import About from './About';
-import Gallery from './Gallery';
-import Footer from './Footer';
+import Footer from "./Component/Footer";
+import Header from "./Component/Header";
+import About from "./Pages/About";
+import Destinations from "./Pages/Destinations";
+import Gallery from "./Pages/Gallery";
+import Home from "./Pages/Home";
+import Services from "./Pages/Services";
+import Tours from "./Pages/Tours";
 
 function App() {
   return (
-    <Router>
+    <Router >
     <div className="app">
       <Switch>
+
         <Route path="/tours">
-           <Header />
-           <Tours />
-           <Footer />
+          <Header />
+          <Tours />
+          <Footer />
         </Route>
+
         <Route path="/destinations">
-           <Header />
-           <Destination />
-           <Footer />
-         </Route>
-        <Route path="/about-us">
-           <Header />
-           <About />
-           <Footer />
-         </Route>
+          <Header />
+          <Destinations />
+          <Footer />
+        </Route>
+
+        <Route path="/services">
+          <Header />
+          <Services />
+          <Footer />
+        </Route>
+
+        <Route path="/about">
+          <Header />
+          <About />
+          <Footer />
+        </Route>
+
         <Route path="/gallery">
-           <Header />
-           <Gallery />
-           <Footer />
+          <Header /> 
+          <Gallery />
+          <Footer />
         </Route>
+
         <Route path="/">
-           <Header />
-           <Body />
-           <Footer />
+          <Header />
+          <Home />
+          <Footer />
         </Route>
+
       </Switch>
-     </div>
+    </div>
     </Router>
   );
 }

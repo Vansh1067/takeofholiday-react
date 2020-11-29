@@ -1,0 +1,45 @@
+.location{
+    /* background-color: blue; */
+    padding: 10px 10px;
+    border: 1px soild rgb(161, 161, 161);
+    width: auto;
+    
+}
+
+.location__image{
+      display: flex;
+      justify-content: space-around;
+      flex-direction: row;
+      width: auto;
+      /* background-color: red; */
+      height: 380px;
+      
+      /* margin: auto; */
+     
+}
+.location__imageData{
+    background-color: white;
+    border: 1px soild rgb(161, 161, 161);
+    box-shadow: 2px 5px 10px rgba(0,0,0,0.5) ;
+    border-radius:10px ;
+    
+}
+.location__text{
+   padding: 10px;
+}
+
+.location__text>p {
+    margin: 2px
+}
+
+.location__buttom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.location__bodyImage{
+    border-radius:  10px;
+}

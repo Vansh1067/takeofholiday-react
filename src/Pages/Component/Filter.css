@@ -1,0 +1,17 @@
+.filter{
+   height: auto;
+   width:auto;
+}
+.filter__bodySelect{
+    width: 100px;
+    
+
+}
+
+.filter__body h1{
+    font-size: 5vh;
+    /* background-color:red ; */
+    
+
+}
+
