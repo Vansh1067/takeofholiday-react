@@ -1,11 +1,16 @@
 .filter{
-   height: auto;
-   width:auto;
+   width:100%;
 }
 .filter__bodySelect{
-    width: 100px;
+    width: 100%;
     
 
+}
+
+.filter__selectForm{
+    width: 100%;
+    background-color: white;
+    box-shadow: 1px 2px 5px rgba(0,0,0,0.5);
 }
 
 .filter__body h1{

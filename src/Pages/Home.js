@@ -1,4 +1,4 @@
-import { Button } from '@material-ui/core'
+import { Button, Grid } from '@material-ui/core'
 import React from 'react'
 import BodyGallery from './Component/BodyGallery'
 import Filter from './Component/Filter'
@@ -15,19 +15,30 @@ function Home() {
             </div>     
             <div class="home__Filter">
                       <Filter />
-                      <Button color="primary" >Search</Button>
+                      
             </div>
             <div className="home__location">
+               <Grid Container >
                 <div className="home__locationHeader">
+               
+
                 <h3>New Tours</h3>
                 </div>
                 <div className="home__locationCard">
+                <Grid item >
                 <Location className="home__locationCardData" />
+                </Grid>
+                <Grid item>
                 <Location className="home__locationCardData" />
+                </Grid>
+                <Grid item>
                 <Location className="home__locationCardData"/>
+                </Grid>
+                <Grid item>
                 <Location className="home__locationCardData"/>
-               
+                </Grid>
                 </div> 
+                </Grid>
             </div>
             <div className="home__Services">
                 <Services />        
