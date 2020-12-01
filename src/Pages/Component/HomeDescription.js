@@ -1,4 +1,4 @@
-import { Button } from '@material-ui/core'
+import { Button, Card, CardActionArea, CardMedia } from '@material-ui/core'
 import "./HomeDescription.css"
 import React from 'react'
 
@@ -23,7 +23,16 @@ function HomeDescription() {
             <Button variant="contained" color="primary">Deatils</Button>         
          </div>
          <div className="homeDescription__image">
-             <img className="homeDescription__imageData" src="https://source.unsplash.com/400x500/?Delhi" alt=""/>
+         <Card >   
+                  <CardActionArea > 
+                    <CardMedia style={{width:300}}
+                    component="img"
+                    alt="Contemplative Reptile"
+                    height="400"
+                    image="https://source.unsplash.com/400x500/?Travel"
+                    />
+                   </CardActionArea>
+                </Card>
          </div>
             
         </div>

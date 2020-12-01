@@ -1,6 +1,7 @@
 import React from 'react';
 import "./BodyGallery.css";
 import ArrowForwardIcon from '@material-ui/icons/ArrowForward';
+import { Card, CardActionArea, CardMedia, Divider, Grid } from '@material-ui/core';
 
 function BodyGallery() {
     return (
@@ -12,28 +13,69 @@ function BodyGallery() {
                   <ArrowForwardIcon color="primary"/>
                 </div>     
             </div>
-            <div className="bodyGallery__body">
+           
+            <Grid container spacing={2} justify="center" style={{marginTop:20}}>
+            
+             <Grid item>
+             <Card>   
+                  <CardActionArea > 
+                    <CardMedia style={{width:300}}
+                    component="img"
+                    alt="Contemplative Reptile"
+                    height="400"
+                    image="https://source.unsplash.com/400x500/?Mumbai"
+                    />
+                   </CardActionArea>
+                </Card>
 
-             <div className="bodyGallery__bodyCard">
-            <img className="bodyGallery__bodyImage" src="https://source.unsplash.com/300x400/?Bihar" alt=""/>
             <h4>Mumbai</h4>
-            </div>
+            </Grid >
+            
 
-            <div className="bodyGallery__bodyCard" >
-            <img className="bodyGallery__bodyImage" src="https://source.unsplash.com/300x400/?Banglore" alt=""/>
+            <Grid item>
+            <Card>   
+                  <CardActionArea > 
+                    <CardMedia style={{width:300}}
+                    component="img"
+                    alt="Contemplative Reptile"
+                    height="400"
+                    image="https://source.unsplash.com/400x500/?Chennai"
+                    />
+                   </CardActionArea>
+                </Card>
             <h4>Chennai</h4>
-            </div>
+            </Grid>
 
-            <div className="bodyGallery__bodyCard">
-            <img className="bodyGallery__bodyImage" src="https://source.unsplash.com/300x400/?kerala" alt=""/>
+            <Grid item>
+            <Card>   
+                  <CardActionArea > 
+                    <CardMedia style={{width:300}}
+                    component="img"
+                    alt="Contemplative Reptile"
+                    height="400"
+                    image="https://source.unsplash.com/400x500/?Kerala"
+                    />
+                   </CardActionArea>
+                </Card>
             <h4>Kerala</h4>
-            </div>
+            </Grid>
 
-            <div className="bodyGallery__bodyCard">
-            <img className="bodyGallery__bodyImage" src="https://source.unsplash.com/300x400/?punjab" alt=""/>
+            <Grid item>
+            <Card  >   
+                  <CardActionArea > 
+                    <CardMedia style={{width:300}}
+                    component="img"
+                    alt="Contemplative Reptile"
+                    height="400"
+                    image="https://source.unsplash.com/400x500/?Punjab"
+                    />
+                   </CardActionArea>
+                </Card>
             <h4>Punjab</h4>
-            </div>
-            </div>
+            </Grid>
+
+            </Grid>
+            
         </div>
     )
 }

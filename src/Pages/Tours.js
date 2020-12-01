@@ -7,14 +7,14 @@ function Tours() {
 
   return (
     <div className="tours">
-      <Grid container direction="column" style={{padding: 7, maxWidth:200,  }}  spacing={1}  >
+      <Grid container direction="column" style={{padding: 10, maxWidth:200,  }}  spacing={1}  >
       <Typography variant="h6" component="h6" style={{margin:4,fontWeight:600}} gutterBottom>
           Filter By
         </Typography>
         <Divider style={{margin: 6}} />
 
         <Grid item  > 
-          <FormControl className="tours__selectForm" variant="">
+          <FormControl variant="outlined" style={{width:180}}>
             <InputLabel htmlFor="outlined-age-native-simple">Countries</InputLabel>
             <Select labelId="demo-simple-select-helper-label">
               <MenuItem value={""}></MenuItem>
@@ -26,7 +26,7 @@ function Tours() {
           </Grid>
 
         <Grid item >
-          <FormControl className="tours__selectForm" variant="">
+          <FormControl variant="outlined" style={{width:180}}>
             <InputLabel htmlFor="outlined-age-native-simple">Cities</InputLabel>
             <Select labelId="demo-simple-select-helper-label">
               <MenuItem value={""}></MenuItem>
@@ -39,7 +39,7 @@ function Tours() {
         
 
         <Grid item >
-          <FormControl className="tours__selectForm" variant="">
+          <FormControl variant="outlined" style={{width:180}}>
             <InputLabel htmlFor="outlined-age-native-simple">Tours date</InputLabel>
             <Select labelId="demo-simple-select-helper-label">
               <MenuItem value={""}></MenuItem>
@@ -52,7 +52,7 @@ function Tours() {
         
 
         <Grid item >
-          <FormControl className="tours__selectForm" variant="">
+          <FormControl variant="outlined" style={{width:180}}>
             <InputLabel htmlFor="outlined-age-native-simple">Room</InputLabel>
             <Select labelId="demo-simple-select-helper-label">
               <MenuItem value={""}></MenuItem>
@@ -64,7 +64,7 @@ function Tours() {
         </Grid>
 
         <Grid item >
-          <FormControl className="tours__selectForm" variant="">
+          <FormControl variant="outlined" style={{width:180}}>
             <InputLabel  htmlFor="outlined-age-native-simple">Adults</InputLabel>
             <Select labelId="demo-simple-select-helper-label">
               <MenuItem value={""}></MenuItem>
@@ -76,7 +76,7 @@ function Tours() {
         </Grid>
 
         <Grid item >
-          <FormControl className="tours__selectForm" variant="">
+          <FormControl variant="outlined" style={{width:180}}>
             <InputLabel htmlFor="outlined-age-native-simple"> Children</InputLabel>
             <Select labelId="demo-simple-select-helper-label">
               <MenuItem value={""}></MenuItem>
@@ -92,9 +92,9 @@ function Tours() {
         <Typography variant="h6" component="h6" style={{margin:4,fontWeight:600}} gutterBottom>
           Price range
         </Typography>
-        <Divider style={{margin: 6}} />
+        
         <Grid item  >
-        <Slider style={{margin: 7 ,}}  />
+        <Slider style={{ margin:5 , width:180}}  />
         </Grid>
         <Divider style={{margin: 6}} />
 
@@ -550,11 +550,9 @@ function Tours() {
     </Grid>
 
 
-
-      <div className="tours__right">
-        {/* <h3>Result: 12 Tours</h3> */}
-       <div className="tours__rightList" >
-         <Grid container >
+     {/* CardsDetails */}
+      
+      <Grid container justify="center" >
         <Grid item >
           <CardDetails />
         </Grid>
@@ -642,10 +640,7 @@ function Tours() {
         </Grid>
 
         </Grid >
-        </div>
-       
-
-      </div>
+        
     </div>
   );
 }

@@ -4,8 +4,8 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top:100px ;
-    margin-bottom: 100px;
+    margin-top:50px ;
+    margin-bottom: 50px;
 }
 .travelDes__header{
     margin-left: 5%;
@@ -26,7 +26,7 @@
 
 .travelDes__image{
 
-    margin: -4px 60px;
+  margin-Left: 60px;
    
     
 }

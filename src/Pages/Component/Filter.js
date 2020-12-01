@@ -6,11 +6,11 @@ function Filter() {
   return (
     <div className="filter">
       <div className="filter__body">
-      <Grid container justify="space-evenly" alignItems="center" spacing={2}>
-        <Grid item xs={3}>
-          <FormControl className="filter__selectForm" variant="">
+      <Grid container className="filter__List" direction="row" justify="space-evenly" alignItems="center" spacing={2}>
+        <Grid item >
+          <FormControl  variant="outlined" style={{width:150}}>
             <InputLabel  htmlFor="outlined-age-native-simple">Countries</InputLabel>
-            <Select labelId="demo-simple-select-helper-label">
+            <Select  labelId="demo-simple-select-filled-label">
               <MenuItem value={""}></MenuItem>
               <MenuItem value={10}>Ten</MenuItem>
               <MenuItem value={20}>Twenty</MenuItem>
@@ -18,8 +18,9 @@ function Filter() {
             </Select>
           </FormControl>
         </Grid>
-        <Grid item xs={3} >
-          <FormControl className="filter__selectForm" variant="">
+
+        <Grid item  >
+          <FormControl  variant="outlined" style={{width:150}}>
             <InputLabel  htmlFor="outlined-age-native-simple">Cities</InputLabel>
             <Select labelId="demo-simple-select-helper-label">
               <MenuItem value={""}></MenuItem>
@@ -30,8 +31,8 @@ function Filter() {
           </FormControl>
         </Grid>
 
-        <Grid item xs={3} >
-          <FormControl className="filter__selectForm" variant="">
+        <Grid item  >
+          <FormControl variant="outlined" style={{width:150}}>
             <InputLabel  htmlFor="outlined-age-native-simple">Tours</InputLabel>
             <Select labelId="demo-simple-select-helper-label">
               <MenuItem value={""}></MenuItem>
@@ -42,8 +43,8 @@ function Filter() {
           </FormControl>
         </Grid>
 
-        <Grid item xs={3} >
-        <Button color="primary" >Search</Button>
+        <Grid item  >
+        <Button variant="outline" color="primary" >Search</Button>
         </Grid>
 
        </Grid>
