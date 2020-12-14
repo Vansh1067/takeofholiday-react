@@ -1,0 +1,11 @@
+.filter{
+   width:100%;
+}
+
+@media only screen and (max-width: 860px){
+    .filter__List{
+        flex-direction: column;
+        
+    }
+}
+
